@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#searchResult, #taxPayerList {
+    margin-top: 20px;
+}
+
+#taxPayerList div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
